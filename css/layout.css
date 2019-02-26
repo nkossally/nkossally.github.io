@@ -304,6 +304,7 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
+
 .social-icons:hover {
   color: #fff;
   background: #515769;
