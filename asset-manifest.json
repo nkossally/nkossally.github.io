@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.91d3f243.css",
-    "main.js": "/static/js/main.8bc373c1.js",
+    "main.css": "/static/css/main.f538bba8.css",
+    "main.js": "/static/js/main.03f41f95.js",
     "static/js/453.29600a1c.chunk.js": "/static/js/453.29600a1c.chunk.js",
     "static/media/Set.png": "/static/media/Set.d6cfa73012a7ff1b0b4b.png",
     "static/media/Dominoes.png": "/static/media/Dominoes.b02b2a5357cd873f53ce.png",
     "static/media/Najja Kossally Resume.pdf": "/static/media/Najja Kossally Resume.b66dc3852aafe94d99b0.pdf",
     "static/media/Scrabble.png": "/static/media/Scrabble.2fd0a83bd37fab0e3736.png",
     "static/media/Image-Encrypter.png": "/static/media/Image-Encrypter.c3fc316f18c2573a7ddd.png",
+    "static/media/professional_photo_color.jpg": "/static/media/professional_photo_color.cf8cc2acc31b7741a78b.jpg",
     "static/media/professional_photo.jpg": "/static/media/professional_photo.ec674c181a94cef29288.jpg",
     "index.html": "/index.html",
-    "main.91d3f243.css.map": "/static/css/main.91d3f243.css.map",
-    "main.8bc373c1.js.map": "/static/js/main.8bc373c1.js.map",
+    "main.f538bba8.css.map": "/static/css/main.f538bba8.css.map",
+    "main.03f41f95.js.map": "/static/js/main.03f41f95.js.map",
     "453.29600a1c.chunk.js.map": "/static/js/453.29600a1c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91d3f243.css",
-    "static/js/main.8bc373c1.js"
+    "static/css/main.f538bba8.css",
+    "static/js/main.03f41f95.js"
   ]
 }
