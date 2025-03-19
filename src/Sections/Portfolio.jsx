@@ -1,4 +1,4 @@
-import {forwardRef} from "react";
+import { forwardRef } from "react";
 
 import { Project } from "../Components/Project";
 
@@ -10,7 +10,7 @@ import ImageEncrypterImg from "../assets/Image-Encrypter.png";
 export const Portfolio = forwardRef((props, ref) => {
   return (
     <div className={"portfolio"} ref={ref}>
-        <div className="section-title"> My Portfolio</div>
+      <div className="section-title"> My Portfolio</div>
       <div className="projects-row">
         <Project
           title="Scrabble"
@@ -24,9 +24,6 @@ export const Portfolio = forwardRef((props, ref) => {
           image={ImageEncrypterImg}
           description="App for AES encyption of images."
         />
-      </div>
-
-      <div className="projects-row">
         <Project
           title="Dominoes"
           url="https://nkossally.github.io/dominoes4"
@@ -42,4 +39,4 @@ export const Portfolio = forwardRef((props, ref) => {
       </div>
     </div>
   );
-})
+});
