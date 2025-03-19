@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
-import ProfessionalPhoto from "../assets/professional_photo.jpg";
 import Resume from "../assets/Najja Kossally Resume.pdf";
+import {Text} from "../Components/Text"
 
 import classNames from "classnames";
 export const About = forwardRef((props, ref) => {
@@ -32,11 +32,12 @@ export const About = forwardRef((props, ref) => {
           <div className={"about-section-title"}> About Me</div>
 
           <div className="about-me">
-            I am a software engineer with experience in React, Redux, Rails,
-            Javascript and Java.
+           
+            <Text text="I am a software engineer with experience in React, Redux, Rails, Javascript and Java." />
+
           </div>
           <div className="about-me">
-            I have worked for the companies Capsule and Google.
+            <Text text="I have worked for the companies Capsule and Google." />
           </div>
         </div>
       </div>

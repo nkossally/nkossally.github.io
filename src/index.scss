@@ -351,3 +351,46 @@ $color: #81848f;
     }
 
 }
+
+@keyframes wiggle {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-2px);
+    }
+
+    50% {
+        transform: translateX(2px);
+    }
+
+    75% {
+        transform: translateX(-2px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.moving-text {
+    margin: 0;
+    padding: 0;
+
+    &:hover {
+        animation: wiggle 2s infinite;
+    }
+}
+
+.text-container {
+    display: flex;
+    text-wrap: wrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    word-wrap: break-word;
+    word-spacing: -2px;
+
+}

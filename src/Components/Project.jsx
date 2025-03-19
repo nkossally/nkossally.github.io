@@ -1,3 +1,4 @@
+import { Text } from "./Text";
 export const Project = ({ image, title, description, url }) => {
   return (
     <div className={"project-container"}>
@@ -7,9 +8,11 @@ export const Project = ({ image, title, description, url }) => {
         </a>
       </div>
       <h4>
-        <a href={url} target="_blank" className="project-title">{title}</a>
+        <a href={url} target="_blank" className="project-title"><Text text={title} /></a>
       </h4>
-      <p className="project-description">{description}</p>
+      <p className="project-description">
+        <Text text={description} />
+      </p>
     </div>
   );
 };
