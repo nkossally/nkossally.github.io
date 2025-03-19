@@ -23,6 +23,9 @@ $color: #81848f;
 
     &:hover {
         opacity: .6;
+        transform: translateY(1px);
+        transform: translateX(1px);
+
     }
 }
 
