@@ -210,6 +210,9 @@ $color: #81848f;
     background-size: cover;
     background-position: center;
     transition: background-image 0.3s ease;
+    margin-left: calc(100vw/10);
+    margin-right: calc(100vw/10);
+
 }
 
 .professional-photo:hover {
@@ -251,8 +254,11 @@ $color: #81848f;
 }
 
 .about-links {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: calc(100vw/10);
+    margin-right: calc(100vw/10);
+    @media (max-width: 750px) {
+
+    }
 }
 
 .about-half {
