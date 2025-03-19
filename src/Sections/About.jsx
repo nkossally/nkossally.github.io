@@ -1,4 +1,4 @@
-import {forwardRef} from "react";
+import { forwardRef } from "react";
 import ProfessionalPhoto from "../assets/professional_photo.jpg";
 import Resume from "../assets/Najja Kossally Resume.pdf";
 
@@ -8,29 +8,26 @@ export const About = forwardRef((props, ref) => {
     <div className={"about-section"} ref={ref}>
       <div className={classNames("name")}>Najja Kossally</div>
       <div className={classNames("job")}>Software Engineer</div>
+      <div className="links-icons-container">
+        <img className={"professional-photo"} src={ProfessionalPhoto} />
+
+        <a
+          href="https://www.linkedin.com/in/najja-k-a4403772"
+          className="about-links"
+          target="_blank"
+        >
+          <div className={"linked-in"}></div>
+        </a>
+
+        <a
+          href="https://github.com/nkossally"
+          className="about-links"
+          target="_blank"
+        >
+          <div className={"github"}></div>
+        </a>
+      </div>
       <div className="about-section-inner-container">
-        <div className="about-half">
-          <div className="about-row">
-            <img className={"professional-photo"} src={ProfessionalPhoto} />
-
-            <a
-              href="https://www.linkedin.com/in/najja-k-a4403772"
-              className="about-links"
-              target="_blank"
-            >
-              <div className={"linked-in"}></div>
-            </a>
-
-            <a
-              href="https://github.com/nkossally"
-              className="about-links"
-              target="_blank"
-            >
-              <div className={"github"}></div>
-            </a>
-          </div>
-        </div>
-
         <div className="about-half">
           <div className={"about-section-title"}> About Me</div>
 
@@ -43,7 +40,14 @@ export const About = forwardRef((props, ref) => {
           </div>
         </div>
       </div>
-      <a className={"resume-button"} href={Resume} target="_blank" rel="noopener noreferrer">Download my Resume</a>
+      <a
+        className={"resume-button"}
+        href={Resume}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Download my Resume
+      </a>
     </div>
   );
 });

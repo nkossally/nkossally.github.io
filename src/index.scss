@@ -190,7 +190,7 @@ $color: #81848f;
     align-self: center;
 }
 
-.job{
+.job {
     align-self: center;
     color: $color;
     font-size: 20px;
@@ -199,12 +199,12 @@ $color: #81848f;
 }
 
 .professional-photo {
-    height: 100px;
-    border-radius: 100px;
+    height: 75px;
+    border-radius: 75px;
 }
 
 .about-section {
-    margin: 50px $thirty 0 $thirty;
+    margin: $thirty $thirty 0 $thirty;
     display: flex;
     flex-direction: column;
 
@@ -213,7 +213,8 @@ $color: #81848f;
         flex-direction: column;
     }
 }
-.about-section-inner-container{
+
+.about-section-inner-container {
     display: flex;
     flex-direction: row;
     margin-top: 40px;
@@ -222,10 +223,10 @@ $color: #81848f;
         margin: 40px 10px 0px 10px;
         flex-direction: column;
     }
-    
+
 }
 
-.about-row{
+.about-row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -235,12 +236,13 @@ $color: #81848f;
         justify-content: space-evenly;
     }
 }
-.about-links{
+
+.about-links {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.about-half{
+.about-half {
     width: 100%
 }
 
@@ -295,7 +297,7 @@ $color: #81848f;
     margin-top: 80px;
 }
 
-.resume-button{
+.resume-button {
     width: 300px;
     height: 40px;
     color: $color;
@@ -318,6 +320,21 @@ $color: #81848f;
     &:hover {
         background: #17BED2;
         color: white;
+    }
+
+}
+
+.links-icons-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+    // margin: 30px 0px 30px 0px;
+
+    @media (max-width: 750px) {
+        justify-content: space-evenly;
     }
 
 }
