@@ -18,6 +18,7 @@ $color: #81848f;
 }
 
 .project-image {
+    width: calc(50% - 100px);
 
     &:hover {
         opacity: .6;
@@ -25,15 +26,21 @@ $color: #81848f;
         transform: translateX(1px);
 
     }
+
+    @media (max-width: 750px) {
+        width: 80%;
+    }
 }
 
 .project-container {
+    width: calc(50% - 100px);
     display: flex;
     flex-direction: column;
     margin: 30px 10px;
     align-items: center;
 
     @media (max-width: 750px) {
+        width: 100%;
         margin-bottom: 30px;
 
     }
