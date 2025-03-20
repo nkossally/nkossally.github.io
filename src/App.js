@@ -19,7 +19,7 @@ function App() {
 
 
   return (
-    <div>
+    <div class="app-container">
       <div className="empty-space"></div>
       <NavBar scrollToContact={handleScroll(contactRef)}  scrollToAbout={handleScroll(aboutRef)} scrollToPortfolio={handleScroll(portfolioRef)}/>
       <About ref={aboutRef} />

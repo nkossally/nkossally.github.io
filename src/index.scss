@@ -54,6 +54,7 @@ $color: #81848f;
 
     &:hover {
         opacity: .6;
+        color: #17BED2;
     }
 
     @media (max-width: 750px) {
@@ -71,6 +72,10 @@ $color: #81848f;
     @media (max-width: 750px) {
         font-size: 14px;
     }
+
+    &:hover{
+        color: #17BED2;
+    }
 }
 
 .about-me {
@@ -81,6 +86,10 @@ $color: #81848f;
 
     @media (max-width: 750px) {
         font-size: 14px;
+    }
+
+    &:hover{
+        color: #17BED2;
     }
 }
 
@@ -96,6 +105,10 @@ $color: #81848f;
         margin: 20px 0px 20px 0px;
 
     }
+
+    &:hover{
+        color: #17BED2;
+    }
 }
 
 .section-title {
@@ -108,6 +121,10 @@ $color: #81848f;
     @media (max-width: 750px) {
         font-size: 24px;
         margin: 10px 10px 10px 10px;
+    }
+
+    &:hover{
+        color: #17BED2;
     }
 }
 
@@ -159,9 +176,14 @@ $color: #81848f;
     text-decoration: none;
     color: $color;
     font-weight: 700;
+    width: fit-content;
 
     @media (max-width: 750px) {
         font-size: 16px;
+    }
+
+    &:hover{
+        color: #17BED2;
     }
 }
 
@@ -174,20 +196,40 @@ $color: #81848f;
     @media (max-width: 750px) {
         font-size: 14px;
     }
+    &:hover{
+        color: #17BED2;
+    }
+}
+
+.contact-section-container {
+
+    background-color: #FAFAFA;
+    width: 100vw;
+    padding: 40px 0px 40px 0px;
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 750px) {
+        padding: 40px 0px 40px 0px;
+    }
 }
 
 .contact-section {
     margin: $hundred $thirty $hundred $thirty;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    // justify-items: flex-end;
+    // align-items: center;
+    // align-content: center;
 
     @media (max-width: 750px) {
-        margin: 40px 10px 40px 10px;
+        margin: 0px 10px 0px 10px;
     }
 }
 
 .contact-column {
-    width: 50%;
 }
 
 .name {
@@ -195,6 +237,10 @@ $color: #81848f;
     font-size: 40px;
     font-weight: 700;
     align-self: center;
+
+    &:hover{
+        color: #17BED2;
+    }
 }
 
 .job {
@@ -203,6 +249,10 @@ $color: #81848f;
     font-size: 20px;
     font-weight: 700;
     margin-top: 20px;
+
+    &:hover{
+        color: #17BED2;
+    }
 }
 
 .professional-photo {
@@ -402,4 +452,9 @@ $color: #81848f;
     word-wrap: break-word;
     word-spacing: -2px;
 
+}
+
+.app-container{
+    width: 100vw;
+    height: 100vh;
 }
