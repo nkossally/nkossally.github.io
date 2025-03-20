@@ -10,9 +10,9 @@ export const Project = ({ image, title, description, url }) => {
       <h4>
         <a href={url} target="_blank" className="project-title"><Text text={title} /></a>
       </h4>
-      <p className="project-description">
+      <div className="project-description">
         <Text text={description} />
-      </p>
+      </div>
     </div>
   );
 };
