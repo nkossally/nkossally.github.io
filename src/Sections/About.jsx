@@ -9,7 +9,12 @@ export const About = forwardRef((props, ref) => {
       <div className={classNames("name")}>Najja Kossally</div>
       <div className={classNames("job")}>Software Engineer</div>
       <div className="links-icons-container">
-        <div className={"professional-photo"} />
+        <a
+          href="https://www.linkedin.com/in/najja-k-a4403772"
+          target="_blank"
+        >
+          <div className={"professional-photo"}></div>
+        </a>
 
         <a
           href="https://www.linkedin.com/in/najja-k-a4403772"
