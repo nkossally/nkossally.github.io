@@ -6,12 +6,19 @@ import SetImg from "../assets/Set.png";
 import ScrabbleImg from "../assets/Scrabble.png";
 import DominoesImg from "../assets/Dominoes.png";
 import ImageEncrypterImg from "../assets/Image-Encrypter.png";
+import OscarsAppImg from "../assets/oscars-app.png";
 
 export const Portfolio = forwardRef((props, ref) => {
   return (
     <div className={"portfolio"} ref={ref}>
       <div className="section-title"> My Portfolio</div>
       <div className="projects-row">
+        <Project
+          title="Academy Awards Ballots and Data Querying"
+          url="https://nkossally.github.io/oscars"
+          image={OscarsAppImg}
+          description="React/Flask/Supabase application for filling Academy Awards ballots and querying data."
+        />
         <Project
           title="Scrabble"
           url="https://nkossally.github.io/seven-letters"
