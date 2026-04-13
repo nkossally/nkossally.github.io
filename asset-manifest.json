@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.e07e2f55.css",
-    "main.js": "/static/js/main.dc38f372.js",
+    "main.js": "/static/js/main.e91eda09.js",
     "static/js/453.29600a1c.chunk.js": "/static/js/453.29600a1c.chunk.js",
+    "static/media/oscars-app.png": "/static/media/oscars-app.59c8ba98aedc86715a3f.png",
     "static/media/Set.png": "/static/media/Set.d6cfa73012a7ff1b0b4b.png",
     "static/media/Dominoes.png": "/static/media/Dominoes.b02b2a5357cd873f53ce.png",
     "static/media/Najja Kossally Resume.pdf": "/static/media/Najja Kossally Resume.e28f9be7bb9066ae3275.pdf",
@@ -12,11 +13,11 @@
     "static/media/professional_photo.jpg": "/static/media/professional_photo.ec674c181a94cef29288.jpg",
     "index.html": "/index.html",
     "main.e07e2f55.css.map": "/static/css/main.e07e2f55.css.map",
-    "main.dc38f372.js.map": "/static/js/main.dc38f372.js.map",
+    "main.e91eda09.js.map": "/static/js/main.e91eda09.js.map",
     "453.29600a1c.chunk.js.map": "/static/js/453.29600a1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e07e2f55.css",
-    "static/js/main.dc38f372.js"
+    "static/js/main.e91eda09.js"
   ]
 }
